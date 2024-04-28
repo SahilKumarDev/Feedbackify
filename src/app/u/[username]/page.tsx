@@ -96,7 +96,7 @@ export default function SendMessage() {
   };
 
   return (
-    <div className="container min-h-screen max-w-full sm:pb-[70px] sm:pt-[80px]  pt-28 pb-8  bg-red-500  justify-center items-center">
+    <div className="container min-h-screen max-w-full sm:pb-[70px] sm:pt-[80px]  pt-28 pb-8   justify-center items-center">
       
       <div className='w-full' >
 
@@ -174,7 +174,7 @@ export default function SendMessage() {
       </div>
       <Separator className="my-6" />
       <div className="text-center">
-        <div className="mb-4 bg-green-600">Get Your Own Message Board</div>
+        <div className="mb-4 ">Get Your Own Message Board</div>
         <Link href={'/sign-up'}>
           <Button>Create Your Account</Button>
         </Link>
