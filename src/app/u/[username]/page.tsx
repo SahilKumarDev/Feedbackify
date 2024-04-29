@@ -96,12 +96,12 @@ export default function SendMessage() {
   };
 
   return (
-    <div className="container min-h-screen max-w-full sm:pb-[70px] sm:pt-[80px]  pt-28 pb-8   justify-center items-center">
+    <div className="container min-h-screen max-w-full sm:pb-[70px] sm:pt-[80px]    justify-center lg:items-center">
       
-      <div className='w-full' >
+      <div className='w-full pt-48 py-24 sm:py-24 lg:py-4'  >
 
 
-      <div className='bg-white mb-1 bg-opacity-30 mx-auto rounded-lg  p-6 max-w-4xl '>
+      <div className='bg-white mb-1 bg-opacity-30 mx-auto rounded-lg p-6 max-w-4xl '>
       <h1 className="text-4xl font-bold mb-6 text-yellow-400 text-center">
         Public Profile Link
       </h1>

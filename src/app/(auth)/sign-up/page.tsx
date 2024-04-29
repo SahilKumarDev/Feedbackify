@@ -101,11 +101,9 @@ export default function SignUpForm() {
     <div className="flex justify-center items-center min-h-screen  w-full ">
       <div className="w-full mx-4 max-w-md  py-8 px-6 space-y-6 bg-white my-16 bg-opacity-30 rounded-lg shadow-md">
         <div className="text-center">
-          <h1 className="font-bold tracking-tight lg:text-4xl mb-2">
-            Join Feedbackify
-          </h1>
 
-          <p className="mb-4">Sign up to start your anonymous adventure</p>
+
+        <p className="mb-4">Sign up to start your anonymous adventure</p>
         </div>
 
         <Form {...form}>
@@ -171,7 +169,7 @@ export default function SignUpForm() {
             />
             <Button
               type="submit"
-              className="w-full bg-zinc-600"
+              className="w-full bg-blue-700"
               disabled={isSubmitting}
             >
               {isSubmitting ? (
@@ -188,7 +186,7 @@ export default function SignUpForm() {
         <div className="text-center mt-4">
           <p>
             Already a member?{" "}
-            <Link href="/sign-in" className="text-blue-600 hover:text-blue-800">
+            <Link href="/sign-in" className="text-blue-500 hover:text-blue-700">
               Sign in
             </Link>
           </p>
