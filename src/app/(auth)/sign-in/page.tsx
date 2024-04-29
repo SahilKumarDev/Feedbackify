@@ -59,8 +59,8 @@ export default function SignInForm() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-zinc-900">
-      <div className="w-full max-w-md max-h-full py-8 px-6 space-y-6 bg-white bg-opacity-30 rounded-lg shadow-md">
+    <div className="flex justify-center items-center  h-screen bg-red-900 w-full">
+      <div className="w-full max-w-md mx-4 py-8 px-6 space-y-6 bg-white bg-opacity-30 rounded-lg shadow-md">
         <div className="text-center">
           <h1 className="font-bold tracking-tight lg:text-4xl mb-2">
             Join Feedbackify

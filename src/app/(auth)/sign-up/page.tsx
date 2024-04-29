@@ -98,12 +98,13 @@ export default function SignUpForm() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-zinc-900">
-      <div className="w-full max-w-md max-h-full py-8 px-6 space-y-6 bg-white bg-opacity-30 rounded-lg shadow-md">
+    <div className="flex justify-center items-center min-h-screen bg-red-900 w-full ">
+      <div className="w-full mx-4 max-w-md  py-8 px-6 space-y-6 bg-white my-16 bg-opacity-30 rounded-lg shadow-md">
         <div className="text-center">
           <h1 className="font-bold tracking-tight lg:text-4xl mb-2">
             Join Feedbackify
           </h1>
+
           <p className="mb-4">Sign up to start your anonymous adventure</p>
         </div>
 
