@@ -98,7 +98,7 @@ export default function SignUpForm() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-red-900 w-full ">
+    <div className="flex justify-center items-center min-h-screen  w-full ">
       <div className="w-full mx-4 max-w-md  py-8 px-6 space-y-6 bg-white my-16 bg-opacity-30 rounded-lg shadow-md">
         <div className="text-center">
           <h1 className="font-bold tracking-tight lg:text-4xl mb-2">
