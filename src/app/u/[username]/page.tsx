@@ -141,13 +141,13 @@ export default function SendMessage() {
 
       <div className="space-y-4 my-4">
         <div className="space-y-2">
-          <Button
-            onClick={fetchSuggestedMessages}
+          <div
+            // onClick={fetchSuggestedMessages}
             className="my-4 bg-zinc-600"
-            disabled={isSuggestLoading}
+            // disabled={isSuggestLoading}
           >
             Suggest Messages
-          </Button>
+          </div>
           <p>Click on any message below to select it.</p>
         </div>
         <Card>
